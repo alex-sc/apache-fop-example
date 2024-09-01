@@ -112,6 +112,10 @@ the location of this file.
              for details of FOP configuration for AFP
         -->
 
+        <font kerning="yes" embed-url="Noto Sans CJK Regular.otf">
+          <font-triplet name="Noto Sans CJK" style="normal" weight="normal"/>
+        </font>
+
         <!-- Times Roman -->
         <font>
           <afp-font name="Times Roman" type="raster" codepage="T1V10500" encoding="Cp500">

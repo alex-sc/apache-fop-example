@@ -6,9 +6,11 @@
     </fo:layout-master-set>
     <fo:page-sequence master-reference="A4-portrait">
         <fo:flow flow-name="xsl-region-body">
-            <fo:block>
-                        Hello, Frank!
-                    </fo:block>
+            <fo:block-container width="50mm" height="150mm" writing-mode="tb-rl">
+                <fo:block font-family="Noto Sans CJK" font-size="12pt" glyph-orientation-vertical="90">
+                    Hello, 你好!
+                </fo:block>
+            </fo:block-container>
         </fo:flow>
     </fo:page-sequence>
 </fo:root>

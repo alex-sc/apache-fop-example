@@ -35,7 +35,7 @@ public class Main {
 
             // Step 5: Setup input and output for XSLT transformation
             // Setup input stream
-            Source src = new StreamSource(new File("ResultXML2FO.fo"));
+            Source src = new StreamSource(new File("ResultXML2FO.fo.xml"));
 
             // Resulting SAX events (the generated FO) must be piped through to FOP
             Result res = new SAXResult(fop.getDefaultHandler());
